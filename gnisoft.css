@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* ------------------------navbar------------------------------------------------- */
+.s1 li{
+ color: black;
+ font-weight: 600;
+ 
+}
+.dropdown-menu{
+    width: auto !important;
+}
+/* ------------------------------------section2----------------------------------------- */
+.section2{
+    color: white;
+}
+.bt button:hover{
+    background-color: rgb(48, 64, 112);
+    color: white;
+}
+.carousel-control-prev{
+    width: 5%;
+}
+.carousel-control-next{
+    width: 5%;
+}
+
+/* ---------------------------------------------section3------------------------------------------ */
+.s3 ul{
+    list-style-type: none;
+}
+.s3{
+    box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.438);
+}
+/* ------------------------------------------section5------------------------------------------ */
+.nav-item .active{
+    background-color: #e92048ca !important;
+    
+}
+
+/* --------------------------------------section8--------------------------------------- */
+.recent{
+    background-image: url('https://www.gnisoftsolutions.com/wp-content/uploads/2019/12/screencapture-baskidoor-2019-12-03-16_26_35-scaled.png');
+    height: 450px;
+    background-size: cover;
+    background-position: top;
+    transition: all 4s;
+    border: 5px solid white;
+    box-shadow: 10px 15px 20px #ccc;
+
+}
+.recent:hover{
+    background-position: bottom;
+    transition: all 4s;
+}
+.rec-btn{
+    
+    background-color: #404e71 ;
+    color: white;
+}
+.rec-btn:hover{
+    background-color: #eb1a44 !important;
+    color: white;
+}
+/* ---------------------------------section10----------------------------------------- */
+.ct:hover{
+background-color: #eb1a44 !important;
+scale: 1.2;
+transition: all 1.5s;
+}
+/* ------------------------------------------section12------------------------------------- */
+.shift li:hover{
+padding-left: 10px;
+transition: all 1.5s;
+}
+.shift h3{
+    position: relative;
+}
+.shift h3::before{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 20%;
+    background-color: #eb1a44;
+    top: 100%;
+
+}
+/* --------------------------------------------section13------------------------------------- */
+.f-icon li{
+    list-style-type: none;
+    border: 1px solid #6b7499;
+    border-radius: 100%;
+}
+.f-icon i{
+    padding: 15px;
+}
+.f-icon i:hover{
+    color: white !important;
+    cursor: pointer;
+}
